@@ -1,3 +1,15 @@
+/*------------------------------------------------------------------
+[Table of contents ]
+
+ Body
+    xx:  xxxx
+
+-------------------------------------------------------------------*/
+
+/* ----------------------------------------- *\
+   xx: xxxx
+\* ----------------------------------------- */
+
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -168,7 +180,35 @@ template {
   display: none;
 }
 
+/* pre-defined classes */
+.iml-auto {
+  margin-left: auto!important;
+}
 
+
+/* badge */
+.badge {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    min-width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+/* form inputs */
+.iform--item {
+	outline: none;
+	font-size: 14px;
+}
+.iform--submit {
+	cursor: pointer;
+}
+
+/* pre-defined color */
 .bg--orange {
   background-color:  #FF8000;
 }

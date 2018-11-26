@@ -21,7 +21,14 @@ Last Update:
    01: Header
 \* ----------------------------------------- */
 .inav {
-	padding: 15px 0px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 15px 0px;
 	background-color: #fff;
 	box-shadow: 0 5px 10px rgba(0,0,0,.05);
 }
@@ -42,35 +49,15 @@ Last Update:
     margin-right: 30px;
 }
 .inav--top--nav {
-	display: inline-block;
-}
-.iform--item {
-	outline: none;
-	font-size: 14px;
-}
-.iform--submit {
-	cursor: pointer;
+	display: inline-flex;
 }
 .inav--search {
 	position: relative;
 	display: inline-block;
 }
 .inav--item {
-	display: inline-block;
-	padding: 0px 20px;
+    padding: 0px 20px;
 }
-.badge {
-    position: absolute;
-    top: -15px;
-    right: -15px;
-    min-width: 20px;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 12px;
-    line-height: 20px;
-}
-
-
 .inav--item > a {
 	position: relative;
 }
