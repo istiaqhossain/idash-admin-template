@@ -53,10 +53,27 @@ Last Update:
 }
 .inav--search {
 	position: relative;
+	display: inline-block;
+}
+.inav--item {
+	display: inline-block;
+	padding: 0px 20px;
+}
+.badge {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    min-width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
 }
 
 
-
+.inav--item > a {
+	position: relative;
+}
 .inav--search .iform--item{
 	height: auto;
     padding: 15px 65px 15px 20px;
@@ -70,7 +87,7 @@ Last Update:
     top: 0;
     right: 0;
     background-color: transparent;
-    padding: 15px 25px;
+    padding: 15px 20px;
     border: 1px solid transparent;
     border-radius: 25px;
 }
