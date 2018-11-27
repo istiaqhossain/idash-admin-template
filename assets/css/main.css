@@ -70,7 +70,7 @@ xx: Header
     line-height: 40px;
     max-height: 40px;
 }
-/* .inav--item:hover .inav--item--list {
+.inav--item:hover .inav--item--list {
     opacity: 1;
     visibility: visible;
     transition: .5s;
@@ -88,7 +88,7 @@ xx: Header
     visibility: hidden;
     opacity: 0;
 }
-.inav--item .inav--item--list li a{
+/* .inav--item .inav--item--list li a{
     padding: 18px 15px;
     display: block;
     font-size: 14px;
