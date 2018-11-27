@@ -40,6 +40,10 @@ a {
   text-decoration: none;
   outline: none;
   color: #000;
+  transition: .5s;
+}
+a:hover {
+  color: #673AB7;
 }
 abbr[title] {
   border-bottom: none; /* 1 */
@@ -187,7 +191,7 @@ template {
 
 
 /* badge */
-.badge {
+.ibadge {
     position: absolute;
     top: -15px;
     right: -15px;
@@ -205,12 +209,13 @@ template {
 	font-size: 14px;
 }
 .iform--submit {
-	cursor: pointer;
+  cursor: pointer;
+  outline: none;
 }
 
 /* pre-defined color */
-.bg--orange {
-  background-color:  #FF8000;
+.bg--purple {
+  background-color:  #673AB7;
 }
 
 .text--white {
