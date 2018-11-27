@@ -8,6 +8,9 @@ xx: Colors
 .bg--light--gray {
   background-color:  #f3f4f4;
 }
+.bg--dark--gray {
+  background-color:  #36404A;
+}
 .bg--purple {
   background-color:  #673AB7;
 }

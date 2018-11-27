@@ -1,0 +1,37 @@
+/* ----------------------------------------- *\
+xx: Sidebar
+\* ----------------------------------------- */
+
+.isidebar {
+    min-width: 80px;
+    position: fixed;
+    height: 100%;
+    top: 70px;
+}
+.isidebar--nav ul li a{
+    color: #999999;
+    display: block;
+    text-align: center;
+    padding: 20px 0px;
+    position: relative;
+}
+.isidebar--nav ul li a span{
+    visibility: hidden;
+    opacity: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 85%;
+    min-width: 120px;
+    padding: 20px 0px;
+    background-color: #36404A;
+    text-align: left;
+    transition: opacity .3s cubic-bezier(0, 0, 0.2, 1);
+}
+.isidebar--nav ul li a:hover{
+    color: #ffffff;
+}
+.isidebar--nav ul li a:hover span{
+    visibility: visible;
+    opacity: 1;
+}
