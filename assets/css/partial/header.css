@@ -3,8 +3,8 @@ xx: Header
 \* ----------------------------------------- */
 
 .inav {
-    padding: 15px 0px;
-	box-shadow: 0 5px 10px rgba(0,0,0,.05);
+    height: 70px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.05);
 }
 .inav--fixed {
     position: fixed;
@@ -14,35 +14,27 @@ xx: Header
     z-index: 999;
 }
 .inav--btn {
-	font-size: 18px;
-    line-height: 21px;
+    font-size: 18px;
+    line-height: 70px;
     width: 80px;
     display: inline-block;
     text-align: center;
     margin-right: 30px;
 }
-.inav--top--nav {
-    display: inline-block;
-    min-height: 40px;
-}
-.inav--top--nav:last-child .inav--item .inav--item--list{
+
+.inav nav ul li.ipull-right .inav--item .inav--item--list{
     right: 0;
 }
-.inav--search {
-	position: relative;
-	display: inline-block;
-}
 .inav--item {
-    padding: 0px 20px;
-    position: relative;
-    display: inline-block;
-    vertical-align: middle;
-}
-.inav--item > a {
     position: relative;
     display: block;
-    line-height: 40px;
-    max-height: 40px;
+    height: 100%;
+}
+.inav--item > a {
+    padding: 0px 20px;
+    position: relative;
+    display: block;
+    line-height: 70px;
 }
 .inav--item > a > i{
     padding-right: 5px;
@@ -53,16 +45,17 @@ xx: Header
     visibility: visible;
 }
 .inav--item .inav--item--list {
-    transition: .5s;
+    transition: opacity .3s cubic-bezier(0, 0, 0.2, 1);
     position: absolute;
     padding: 0;
     margin: 0;
     list-style: none;
-    top: 58px;
+    top: 100%;
     display: block;
     min-width: 200px;
     visibility: hidden;
     opacity: 0;
+    border: 1px solid #ddd;
 }
 .inav--item .inav--item--list li a{
     padding: 18px 15px;
@@ -88,8 +81,16 @@ xx: Header
 .inav--item .inav--item--list li:last-child a::before{
     position: static;
 }
+.inav--search {
+    height: 100%;
+}
+.inav--search form{
+    position: relative;
+    margin: 12px 0px;
+}
 .inav--search .iform--item{
-	height: auto;
+    
+    height: 45px;
     padding: 12px 65px 12px 20px;
     border-width: 0;
     border-radius: 25px;
@@ -108,20 +109,21 @@ xx: Header
     padding: 15px 20px;
     border: 1px solid transparent;
     border-radius: 25px;
-    transition: .5s;
+    transition: color .5s linear;
 }
 .inav--search .iform--submit:hover{
     color: #673AB7;
 }
 .inav--avatar--img {
     width: 40px;
+    vertical-align: middle;
     position: relative;
 }
 .inav--item .inav--user--active {
     position: absolute;
     width: 10px;
     height: 10px;
-    bottom: 0;
-    right: 0;
+    bottom: 14px;
+    right: 20px;
     border-radius: 50%;
 }

@@ -1,17 +1,18 @@
 /*------------------------------------------------------------------
 [Table of contents ]
 
- Body
-    xx:  Typography
-    xx:  Pre define classes
-    xx:  Colors
-    xx:  Form
-    xx:  Badges
+Body
+xx:  Typography
 
 -------------------------------------------------------------------*/
 
+@import "preset/defined-classes.css";
+@import "preset/colors.css";
+@import "preset/badges.css";
+@import "preset/form.css";
+
 /* ----------------------------------------- *\
-   xx: Typography
+xx: Typography
 \* ----------------------------------------- */
 
 body {
@@ -24,92 +25,8 @@ a {
   text-decoration: none;
   outline: none;
   color: #000;
-  transition: .5s;
+  transition: color .5s linear;
 }
 a:hover {
   color: #673AB7;
-}
-
-/* ----------------------------------------- *\
-   xx: Pre define classes
-\* ----------------------------------------- */
-
-.ipull-right {
-  float: right;
-}
-
-
-/* ----------------------------------------- *\
-   xx: Colors
-\* ----------------------------------------- */
-
-.bg--white {
-  background-color:  #fff;
-}
-.bg--light--gray {
-  background-color:  #f3f4f4;
-}
-.bg--purple {
-  background-color:  #673AB7;
-}
-.bg--dark--green {
-  background-color:  #6BC788;
-}
-
-.text--white {
-  color: #fff;
-}
-.text--purple {
-  color: #673AB7;
-}
-.text--dark--gray {
-  color: #36404A;
-}
-
-/* ----------------------------------------- *\
-   xx: Form
-\* ----------------------------------------- */
-
-input::-webkit-input-placeholder { /* Chrome */
-  color: #000;
-}
-input:-ms-input-placeholder { /* IE 10+ */
-  color: #000;
-}
-input::-moz-placeholder { /* Firefox 19+ */
-  color: #000;
-}
-input:-moz-placeholder { /* Firefox 4 - 18 */
-  color: #000;
-}
-input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-results-button,
-input[type="search"]::-webkit-search-results-decoration {
-  -webkit-appearance:none;
-}
-
-.iform--item {
-	outline: none;
-  font-size: 14px;
-  font-family: 'Poppins', sans-serif;
-}
-.iform--submit {
-  cursor: pointer;
-  outline: none;
-}
-
-/* ----------------------------------------- *\
-   xx: Badges
-\* ----------------------------------------- */
-
-.ibadge {
-    position: absolute;
-    top: -5px;
-    right: -15px;
-    min-width: 18px;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 12px;
-    line-height: 18px;
 }

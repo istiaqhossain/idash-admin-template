@@ -1,0 +1,14 @@
+/* ----------------------------------------- *\
+   xx: Badges
+\* ----------------------------------------- */
+
+.ibadge {
+    position: absolute;
+    top: 15px;
+    right: 1px;
+    min-width: 18px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+}
