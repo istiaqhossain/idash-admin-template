@@ -41,7 +41,7 @@ xx: Header
     right: 0;
     z-index: 999;
 }
-/* .inav--btn {
+.inav--btn {
 	font-size: 18px;
     line-height: 21px;
     width: 80px;
@@ -56,7 +56,7 @@ xx: Header
 .inav--top--nav:last-child .inav--item .inav--item--list{
     right: 0;
 }
-.inav--search {
+/* .inav--search {
 	position: relative;
 	display: inline-block;
 }
