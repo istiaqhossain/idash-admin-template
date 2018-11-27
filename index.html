@@ -16,7 +16,6 @@
 
   <link rel="stylesheet" href="assets/vendor/icofont/icofont.min.css">
 
-  <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/main.css">
   
 </head>
@@ -29,10 +28,10 @@
   <!-- Add your site or application content here -->
   
   <!-- Header Start Here -->
-  <header class="inav inav--fixed">
+  <header class="inav inav--fixed bg--white">
     
     <!-- Toggle Sidebar -->
-    <a href="javascript:void(0);" class="inav--btn" data-toggle="sidebar" title="Toggle Sidebar">
+    <a href="javascript:void(0);" class="inav--btn text--dark--gray" data-toggle="sidebar" title="Toggle Sidebar">
       <i class="icofont-navigation-menu"></i>
     </a>
     
@@ -42,7 +41,7 @@
       <!-- inav-search Start Here -->
       <div class="inav--search">
         <form action=""> 
-          <input type="search" name="s" class="iform--item" placeholder="Search Something..."> 
+          <input type="search" name="s" class="iform--item bg--light--gray" placeholder="Search Something..."> 
           <button type="submit" class="iform--submit"><i class="icofont-search-1"></i></button> 
         </form>
       </div>
@@ -69,7 +68,7 @@
           <span class="ibadge bg--purple text--white">5</span>
         </a>
         
-        <ul class="inav--item--list">
+        <ul class="inav--item--list bg--white">
           <li>
             <a href="">Lorem ipsum dolor</a>
           </li>
@@ -91,7 +90,7 @@
       
     </div>
     <!-- inav-top-nav End Here -->
-    
+
     <!-- inav-top-nav Start Here -->
     <div class="inav--top--nav iml-auto">
       
@@ -101,12 +100,14 @@
           <i class="icofont-bell-alt"></i>
           <span class="ibadge bg--purple text--white">2</span>
         </a>
-        <ul class="inav--item--list">
+        <ul class="inav--item--list bg--white">
           <li>
-            <a href=""><i class="icofont-bug"></i> Annual Reports</a>
+            <a href="">
+              <i class="icofont-bug"></i> Annual Reports</a>
           </li>
           <li>
-            <a href=""><i class="icofont-bullet"></i> HR Reports</a>
+            <a href="">
+              <i class="icofont-bullet"></i> HR Reports</a>
           </li>
         </ul>
       </div>
@@ -119,7 +120,28 @@
         </a>
       </div>
       <!-- inav-item End Here -->
-      
+
+      <!-- inav-item Start Here -->
+      <div class="inav--item">
+        <a href="">
+          <img class="inav--avatar--img" src="assets/img/avatar.png" alt="" />
+          <span class="inav--user--active bg--dark--green"></span>
+        </a>
+        <ul class="inav--item--list bg--white">
+          <li>
+            <a href="">
+              <i class="icofont-bug"></i> Profile
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="icofont-logout"></i> Logout
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- inav-item End Here -->
+    
     </div>
     <!-- inav-top-nav End Here -->
 

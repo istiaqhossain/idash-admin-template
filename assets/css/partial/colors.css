@@ -1,0 +1,26 @@
+/* ----------------------------------------- *\
+ Form
+\* ----------------------------------------- */
+
+.bg--white {
+  background-color:  #fff;
+}
+.bg--light--gray {
+  background-color:  #f3f4f4;
+}
+.bg--purple {
+  background-color:  #673AB7;
+}
+.bg--dark--green {
+  background-color:  #6BC788;
+}
+
+.text--white {
+  color: #fff;
+}
+.text--purple {
+  color: #673AB7;
+}
+.text--dark--gray {
+  color: #36404A;
+}
