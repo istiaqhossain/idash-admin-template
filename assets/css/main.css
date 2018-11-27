@@ -24,13 +24,6 @@ xx: Header
 \* ----------------------------------------- */
 
 .inav {
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    align-items: center;
     padding: 15px 0px;
 	box-shadow: 0 5px 10px rgba(0,0,0,.05);
 }
@@ -50,7 +43,7 @@ xx: Header
     margin-right: 30px;
 }
 .inav--top--nav {
-    display: inline-flex;
+    display: inline-block;
     min-height: 40px;
 }
 .inav--top--nav:last-child .inav--item .inav--item--list{
@@ -63,6 +56,8 @@ xx: Header
 .inav--item {
     padding: 0px 20px;
     position: relative;
+    display: inline-block;
+    vertical-align: middle;
 }
 .inav--item > a {
     position: relative;
@@ -84,11 +79,10 @@ xx: Header
     top: 58px;
     display: block;
     min-width: 200px;
-    border: 1px solid #ddd;
     visibility: hidden;
     opacity: 0;
 }
-/* .inav--item .inav--item--list li a{
+.inav--item .inav--item--list li a{
     padding: 18px 15px;
     display: block;
     font-size: 14px;
@@ -104,7 +98,7 @@ xx: Header
     position: absolute;
     width: 90%;
     height: 1px;
-    background-color: #ddd;
+    border-bottom: 1px dashed #ddd;
     left: 50%;
     bottom: 0;
     transform: translate(-50%,0%);
@@ -149,4 +143,3 @@ xx: Header
     right: 0;
     border-radius: 50%;
 }
- */

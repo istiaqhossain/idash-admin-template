@@ -34,8 +34,8 @@ a:hover {
    xx: Pre define classes
 \* ----------------------------------------- */
 
-.iml-auto {
-  margin-left: auto!important;
+.ipull-right {
+  float: right;
 }
 
 
