@@ -68,7 +68,6 @@ xx: Header
 .inav--item:hover .inav--item--list {
     opacity: 1;
     visibility: visible;
-    transition: .5s;
 }
 .inav--item .inav--item--list {
     transition: .5s;
