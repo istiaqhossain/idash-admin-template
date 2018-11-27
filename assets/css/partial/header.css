@@ -44,6 +44,10 @@ xx: Header
     line-height: 40px;
     max-height: 40px;
 }
+.inav--item > a > i{
+    padding-right: 5px;
+    color: #673AB7;
+}
 .inav--item:hover .inav--item--list {
     opacity: 1;
     visibility: visible;
