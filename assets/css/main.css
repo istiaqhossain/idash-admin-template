@@ -1,3 +1,5 @@
+/* @import "partial/header.css";  */
+
 /*------------------------------------------------------------------
 [Master Stylesheet]
 
@@ -13,12 +15,137 @@ Last Update:
 [Table of contents ]
 
 Body
-01:  Header
+xx:  Header
 
 -------------------------------------------------------------------*/
 
 /* ----------------------------------------- *\
-01: Header
+xx: Header
 \* ----------------------------------------- */
-@import "partial/header.css"; 
 
+.inav {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 15px 0px;
+	box-shadow: 0 5px 10px rgba(0,0,0,.05);
+}
+.inav--fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+.inav--btn {
+	font-size: 18px;
+    line-height: 21px;
+    width: 80px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 30px;
+}
+.inav--top--nav {
+    display: inline-flex;
+    min-height: 40px;
+}
+.inav--top--nav:last-child .inav--item .inav--item--list{
+    right: 0;
+}
+.inav--search {
+	position: relative;
+	display: inline-block;
+}
+.inav--item {
+    padding: 0px 20px;
+    position: relative;
+}
+.inav--item > a {
+    position: relative;
+    display: block;
+    line-height: 40px;
+    max-height: 40px;
+}
+.inav--item:hover .inav--item--list {
+    opacity: 1;
+    visibility: visible;
+    transition: .5s;
+}
+.inav--item .inav--item--list {
+    transition: .5s;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    top: 58px;
+    display: block;
+    min-width: 200px;
+    border: 1px solid #ddd;
+    visibility: hidden;
+    opacity: 0;
+}
+.inav--item .inav--item--list li a{
+    padding: 18px 15px;
+    display: block;
+    font-size: 14px;
+    position: relative;
+    line-height: 21px;
+}
+.inav--item .inav--item--list li a i{
+    padding-right: 5px;
+    color: #673AB7;
+}
+.inav--item .inav--item--list li a::before{
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background-color: #ddd;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0%);
+}
+.inav--item .inav--item--list li:last-child a::before{
+    position: static;
+}
+.inav--search .iform--item{
+	height: auto;
+    padding: 12px 65px 12px 20px;
+    border-width: 0;
+    border-radius: 25px;
+    box-shadow: none;
+    border: 1px solid transparent;
+    transition: .5s;
+}
+.inav--search .iform--item:focus{
+    border-color: #673AB7;
+}
+.inav--search .iform--submit{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    padding: 15px 20px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    transition: .5s;
+}
+.inav--search .iform--submit:hover{
+    color: #673AB7;
+}
+.inav--avatar--img {
+    width: 40px;
+    position: relative;
+}
+.inav--item .inav--user--active {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+}
