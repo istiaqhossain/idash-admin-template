@@ -56,7 +56,7 @@ xx: Header
 .inav--top--nav:last-child .inav--item .inav--item--list{
     right: 0;
 }
-/* .inav--search {
+.inav--search {
 	position: relative;
 	display: inline-block;
 }
@@ -70,7 +70,7 @@ xx: Header
     line-height: 40px;
     max-height: 40px;
 }
-.inav--item:hover .inav--item--list {
+/* .inav--item:hover .inav--item--list {
     opacity: 1;
     visibility: visible;
     transition: .5s;
