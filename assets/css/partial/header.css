@@ -91,12 +91,10 @@ xx: Header
 .inav--search .iform--item{
     height: 45px;
     padding: 12px 65px 12px 20px;
-    border-width: 0;
-    border-radius: 25px;
     box-shadow: none;
-    border: 1px solid;
-    border-color: #f3f4f4;
-    transition: border-color ease-in-out .15s;
+    border: 1px solid #f3f4f4;
+    border-radius: 25px;
+    transition: border ease-in-out .15s;
 }
 .inav--search .iform--item:focus{
     border-color: #673AB7;
