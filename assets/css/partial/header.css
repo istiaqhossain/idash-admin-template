@@ -22,7 +22,7 @@ xx: Header
     margin-right: 30px;
 }
 
-.inav nav ul li.ipull-right .inav--item .inav--item--list{
+.inav nav ul li.ipull--right .inav--item .inav--item--list{
     right: 0;
 }
 .inav--item {
@@ -89,14 +89,13 @@ xx: Header
     margin: 12px 0px;
 }
 .inav--search .iform--item{
-    
     height: 45px;
     padding: 12px 65px 12px 20px;
     border-width: 0;
     border-radius: 25px;
     box-shadow: none;
     border: 1px solid transparent;
-    transition: border-color .5s linear;
+    transition: border .5s linear;
 }
 .inav--search .iform--item:focus{
     border-color: #673AB7;
