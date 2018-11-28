@@ -94,8 +94,9 @@ xx: Header
     border-width: 0;
     border-radius: 25px;
     box-shadow: none;
-    border: 1px solid transparent;
-    transition: border .5s linear;
+    border: 1px solid;
+    border-color: transparent;
+    transition: border-color .5s linear;
 }
 .inav--search .iform--item:focus{
     border-color: #673AB7;
