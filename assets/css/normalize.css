@@ -25,7 +25,6 @@ a {
   text-decoration: none;
   outline: none;
   color: #000;
-  transition: color .5s linear;
 }
 a:hover {
   color: #673AB7;
