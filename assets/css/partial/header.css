@@ -96,7 +96,7 @@ xx: Header
     box-shadow: none;
     border: 1px solid;
     border-color: transparent;
-    transition: border .5s linear;
+    transition: border-color ease-in-out .15s;
 }
 .inav--search .iform--item:focus{
     border-color: #673AB7;
