@@ -6,10 +6,14 @@ xx:  Typography
 
 -------------------------------------------------------------------*/
 
+@import "preset/grid.css";
 @import "preset/defined-classes.css";
 @import "preset/colors.css";
 @import "preset/badges.css";
 @import "preset/form.css";
+@import "preset/panel.css";
+@import "preset/table.css";
+@import "preset/widgets.css";
 
 /* ----------------------------------------- *\
 xx: Typography
@@ -28,4 +32,7 @@ a {
 }
 a:hover {
   color: #673AB7;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 400;
 }

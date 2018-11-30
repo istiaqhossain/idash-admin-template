@@ -1,0 +1,39 @@
+/* ----------------------------------------- *\
+xx: Panel
+\* ----------------------------------------- */
+
+.ipanel {
+    margin-bottom: 30px;
+    color: #000000;
+    border-radius: 2px;
+}
+.ipanel--heading {
+    overflow: hidden;
+}
+.ipanel--title {
+    margin: 0;
+    float: left;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #646464;
+}
+.ipanel--action {
+    float: right;
+}
+.ipanel--action a {
+    padding: 14px 20px;
+    display: inline-block;
+    background-color: #673AB7;
+    border: 1px solid #673AB7;
+    font-size: 14px;
+    color: #fff;
+    transition: background-color ease-in-out .15s, color ease-in-out .15s;
+}
+.ipanel--action a i{
+    padding-right: 5px;
+}
+.ipanel--action a:hover {
+    background-color: #fff;
+}

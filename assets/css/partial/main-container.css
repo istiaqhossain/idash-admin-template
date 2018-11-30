@@ -1,0 +1,41 @@
+/* ----------------------------------------- *\
+xx: Main Container
+\* ----------------------------------------- */
+
+.imain--container {
+    margin: 70px 0px 0px 80px;
+    padding: 20px 15px;
+}
+.ipage--header {
+    margin-bottom: 30px;
+}
+/* ilayout--heading */
+.ilayout--heading h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.ilayout--heading p {
+    margin: 0;
+    font-size: 14px;
+    color: #999;
+}
+/* ilayout--heading */
+
+/* ilayout--breadcrumb */
+.ilayout--breadcrumb {
+    float: right;
+}
+.ilayout--breadcrumb .breadcrumb--item {
+    display: inline-block;
+    font-size: 14px;
+}
+.breadcrumb--item+.breadcrumb--item:before {
+    content: "/";
+    color: #000;
+    margin: 0px 5px;
+    font-size: 14px;
+}
+.breadcrumb--item.active {
+    color: #673AB7;
+}
+/* ilayout--breadcrumb */

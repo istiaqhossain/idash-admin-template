@@ -1,0 +1,52 @@
+/* ----------------------------------------- *\
+xx: Widgets
+\* ----------------------------------------- */
+
+/* widget.widget--stat--v1 */
+.widget.widget--stat--v1 {
+    text-align: center;
+    padding: 30px 0px 40px 0px;
+    overflow: hidden;
+    box-shadow: 0 1px 5px rgba(0,0,0,.08);
+}
+.widget.widget--stat--v1 .stat--v1--label {
+    position: relative;
+    z-index: 1;
+}
+.widget.widget--stat--v1 .stat--v1--label span {
+    font-size: 14px;
+    border: 1px solid #999;
+    padding: 2px 15px;
+    display: inline-block;
+    line-height: 18px;
+    border-radius: 15px;
+    margin: 20px 0px;
+    position: relative;
+    background: #fff;
+}
+.widget.widget--stat--v1 .stat--v1--label:before {
+    border-top: 1px solid #999999;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 500%;
+    z-index: -1;
+}
+.widget.widget--stat--v1 > i {
+    display: block;
+    font-size: 38px;
+    color: #673AB7;
+}
+.widget.widget--stat--v1 > p {
+    margin: 0;
+    color: #646464;
+    font-size: 24px;
+}
+.widget.widget--stat--v1 > p span{
+    color: #e16123;
+}
+/* widget.widget--stat--v1 */

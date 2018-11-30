@@ -1,0 +1,55 @@
+/* ----------------------------------------- *\
+xx: Table
+\* ----------------------------------------- */
+
+.itable--v1 {
+    width: 100%;
+    color: #646464;   
+}
+.itable--v1 thead th {
+    text-align: left;
+    padding: 15px;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-transform: uppercase;
+}
+.itable--v1 tbody td {
+    padding: 15px;
+    font-size: 14px;
+}
+.itable--pagination--v1 {
+    text-align: center;
+    padding: 30px 0px;
+}
+.itable--pagination--v1 li{
+    display: inline-block;
+    padding: 0px 5px;
+}
+.itable--pagination--v1 li a{
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0,0,0,.08);
+    border: 1px solid #fff;
+    width: 35px;
+    display: block;
+    font-size: 12px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    transition: border ease-in-out .15s,color ease-in-out .15s,background-color ease-in-out .15s;
+}
+.itable--pagination--v1 li.active a {
+    background-color: #36404A;
+    border-color: #36404A;
+    color: #fff;
+}
+.itable--pagination--v1 li a:hover{
+    background-color: #673AB7;
+    border-color: #673AB7;
+    color: #fff;
+}
+.itable--pagination--v1 li:first-child a,.itable--pagination--v1 li:last-child a{
+    border-color: #673AB7;
+    background-color: #673AB7;
+    color: #fff;
+}
