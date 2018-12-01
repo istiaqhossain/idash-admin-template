@@ -36,6 +36,6 @@ xx: Main Container
     font-size: 14px;
 }
 .breadcrumb--item.active {
-    color: #673AB7;
+    color: #333;
 }
 /* ilayout--breadcrumb */

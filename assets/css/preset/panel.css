@@ -26,8 +26,8 @@ xx: Panel
 .ipanel--action a {
     padding: 14px 20px;
     display: inline-block;
-    background-color: #673AB7;
-    border: 1px solid #673AB7;
+    background-color: #333;
+    border: 1px solid #333;
     font-size: 14px;
     color: #fff;
     transition: background-color ease-in-out .15s, color ease-in-out .15s;

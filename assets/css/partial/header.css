@@ -38,7 +38,7 @@ xx: Header
 }
 .inav--item > a > i{
     padding-right: 5px;
-    color: #673AB7;
+    color: #333;
 }
 .inav--item:hover .inav--item--list {
     opacity: 1;
@@ -66,7 +66,7 @@ xx: Header
 }
 .inav--item .inav--item--list li a i{
     padding-right: 5px;
-    color: #673AB7;
+    color: #333;
 }
 .inav--item .inav--item--list li a::before{
     content: '';
@@ -97,7 +97,7 @@ xx: Header
     transition: border ease-in-out .15s;
 }
 .inav--search .iform--item:focus{
-    border-color: #673AB7;
+    border-color: #333;
 }
 .inav--search .iform--submit{
     position: absolute;
@@ -110,7 +110,7 @@ xx: Header
     transition: color .5s linear;
 }
 .inav--search .iform--submit:hover{
-    color: #673AB7;
+    color: #333;
 }
 .inav--avatar--img {
     width: 40px;

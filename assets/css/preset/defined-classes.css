@@ -2,6 +2,9 @@
 xx: Defined Classes
 \* ----------------------------------------- */
 
+.overflow--unset {
+  overflow: unset !important;
+}
 .test-center {
   text-align: center;
 }

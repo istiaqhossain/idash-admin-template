@@ -10,7 +10,7 @@ xx: Sidebar
     top: 70px;
 }
 .isidebar--nav ul li a{
-    color: #999999;
+    color: #fff;
     display: block;
     text-align: center;
     padding: 12px 0px;
@@ -25,7 +25,7 @@ xx: Sidebar
     left: 85%;
     min-width: 150px;
     padding: 12px 0px;
-    background-color: #36404A;
+    background-color: #333;
     text-align: left;
     transition: opacity .3s cubic-bezier(0, 0, 0.2, 1);
 }

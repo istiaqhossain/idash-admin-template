@@ -39,7 +39,7 @@ xx: Widgets
 .widget.widget--stat--v1 > i {
     display: block;
     font-size: 38px;
-    color: #673AB7;
+    color: #333;
 }
 .widget.widget--stat--v1 > p {
     margin: 0;
@@ -63,7 +63,7 @@ xx: Widgets
     position: absolute;
     width: 25%;
     left: -25%;
-    background-color: #673AB7;
+    background-color: #333;
     color: #fff;
     z-index: -1;
     padding: 20px 0px;
@@ -74,7 +74,7 @@ xx: Widgets
     border-radius: 50%;
 }
 .widget.widget--stat--v2 span{
-    color: #673AB7;
+    color: #333;
     font-size: 18px;
 }
 .widget.widget--stat--v2 p{
@@ -87,7 +87,7 @@ xx: Widgets
 /* widget widget--top--customer */
 .widget.widget--top--customer h3 {
     font-size: 14px;
-    background-color: #673AB7;
+    background-color: #333;
     color: #fff;
     margin: 0;
     padding: 15px 0px 15px 15px;
@@ -110,19 +110,64 @@ xx: Widgets
     margin-top: 15px;
 }
 .widget.widget--top--customer a:hover {
-    color: #673AB7;
-    border-color: #673AB7;
+    color: #333;
+    border-color: #333;
 }
 .widget--top--customer .feature {
     padding: 5px 25px;
     font-size: 14px;
 }
 .widget--top--customer .feature i {
-    color: #673AB7;
+    color: #333;
     padding-right: 10px;
 }
 .widget--top--customer .feature span {
     float: right;
-    color: #673AB7;
+    color: #333;
 }
 /* widget widget--top--customer */
+
+/* widget widget--social--fb1 */
+.widget.widget--social--fb1 {
+    text-align: center;
+    width: 60%;
+    position: relative;
+}
+.widget.widget--social--fb1 a{
+    padding: 50px 0px;
+    display: block;
+    position: relative;
+}
+.widget.widget--social--fb1 a:before{
+    content: '';
+    position: absolute;
+    background-color: #3b5998;
+    width: 15px;
+    height: 15px;
+    bottom: -10px;
+    transform: rotate(135deg);
+}
+.widget.widget--social--fb1 i{
+    color: #3b5998;
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+.widget.widget--social--fb1 span{
+    color: #646464;
+    display: block;
+}
+.widget.widget--social--fb1 .before--layer{
+background-color: #3b5998;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    padding: 8px 22px;
+    transform: rotate(90deg) translate(18%,-22%);
+    z-index: -1;
+    text-align: left;
+}
+/* widget widget--social--fb1 */

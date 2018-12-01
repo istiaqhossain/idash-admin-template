@@ -9,10 +9,10 @@ xx: Colors
   background-color:  #f3f4f4;
 }
 .bg--dark--gray {
-  background-color:  #36404A;
+  background-color:  #333;
 }
 .bg--purple {
-  background-color:  #673AB7;
+  background-color:  #333;
 }
 .bg--dark--green {
   background-color:  #6BC788;
@@ -22,8 +22,8 @@ xx: Colors
   color: #fff;
 }
 .text--purple {
-  color: #673AB7;
+  color: #333;
 }
 .text--dark--gray {
-  color: #36404A;
+  color: #333;
 }

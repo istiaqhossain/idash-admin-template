@@ -42,17 +42,17 @@ xx: Table
     transition: border ease-in-out .15s,color ease-in-out .15s,background-color ease-in-out .15s;
 }
 .itable--pagination--v1 li.active a {
-    background-color: #36404A;
-    border-color: #36404A;
+    background-color: #333;
+    border-color: #333;
     color: #fff;
 }
 .itable--pagination--v1 li a:hover{
-    background-color: #673AB7;
-    border-color: #673AB7;
+    background-color: #333;
+    border-color: #333;
     color: #fff;
 }
 .itable--pagination--v1 li:first-child a,.itable--pagination--v1 li:last-child a{
-    border-color: #673AB7;
-    background-color: #673AB7;
+    border-color: #333;
+    background-color: #333;
     color: #fff;
 }
