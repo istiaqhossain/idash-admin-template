@@ -18,6 +18,9 @@ xx: Table
     padding: 15px;
     font-size: 14px;
 }
+.itable--v1 tbody td a{
+    color: #646464;
+}
 .itable--pagination--v1 {
     text-align: center;
     padding: 30px 0px;

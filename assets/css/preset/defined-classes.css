@@ -2,6 +2,9 @@
 xx: Defined Classes
 \* ----------------------------------------- */
 
+.test-center {
+  text-align: center;
+}
 .ipull--right {
   float: right;
 }

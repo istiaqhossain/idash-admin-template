@@ -6,6 +6,7 @@ xx: Panel
     margin-bottom: 30px;
     color: #000000;
     border-radius: 2px;
+    overflow: hidden;
 }
 .ipanel--heading {
     overflow: hidden;
