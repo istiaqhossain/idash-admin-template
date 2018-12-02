@@ -152,12 +152,12 @@ xx: Widgets
     font-size: 32px;
     padding-bottom: 30px;
 }
-.widget.widget--social--fb1 span{
+.widget.widget--social--fb1 a > span{
     color: #646464;
     display: block;
 }
 .widget.widget--social--fb1 .before--layer{
-background-color: #3b5998;
+    background-color: #3b5998;
     color: #fff;
     position: absolute;
     top: 0;
@@ -166,8 +166,159 @@ background-color: #3b5998;
     height: 100%;
     text-transform: uppercase;
     padding: 8px 22px;
-    transform: rotate(90deg) translate(18%,-22%);
     z-index: -1;
     text-align: left;
+    transform: translate(20%,20%);
+    text-align: right;
+}
+.widget.widget--social--fb1 .before--layer span {
+    transform: rotate(90deg);
+    position: absolute;
+    width: max-content;
+    right: -15px;
+    top: 50px;
 }
 /* widget widget--social--fb1 */
+
+/* widget widget--instant--msg */
+.widget.widget--instant--msg {
+    position: relative;
+}
+.widget.widget--instant--msg textarea {
+    resize: none;
+    width: 92%;
+    height: 160px;
+    border: 0px solid;
+    padding: 20px;
+    outline: none;
+}
+.widget.widget--instant--msg button[type=submit] {
+    position: relative;
+    transform: rotate(90deg);
+    float: right;
+    margin-top: -166px;
+    border: 0px solid;
+    text-transform: uppercase;
+    right: -70px;
+    color: #999;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    height: 75px;
+    width: 210px;
+    top: 20px;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    outline: none;
+}
+.widget.widget--instant--msg .instant--msg--bottom{
+    background-color: #fff;
+    position: relative;
+    top: -5px;
+    padding: 10px 0px;
+}
+.widget.widget--instant--msg .instant--msg--bottom .input--file {
+    cursor: pointer;
+    margin-left: 15px;
+    font-size: 14px;
+    color: #999;
+}
+.widget.widget--instant--msg .instant--msg--bottom .input--file i {
+    padding-right: 8px;
+    color: #4CAF50;
+}
+.widget.widget--instant--msg .instant--msg--bottom input[type=file]{
+    display: none;
+}
+.widget.widget--instant--msg button[type=reset] {
+    float: right;
+    margin-right: 85px;
+    border: 0px solid;
+    background-color: #fff;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    color: #999;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+}
+.widget.widget--instant--msg button[type=reset]:before {
+    content: '\f00d';
+    position: absolute;
+    left: -15px;
+    color: #ff0000;
+    font-weight: bold;
+    font-family: 'Font Awesome 5';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+/* widget widget--instant--msg */
+
+/* widget widget--traffic--v1 */
+.widget.widget--traffic--v1 {
+    padding-top: 15px;
+}
+.widget.widget--traffic--v1 li {}
+.widget.widget--traffic--v1 .traffic--left { 
+    float: left;
+    background-color: #fff;
+    width: 76%;
+    padding: 18px 0px 18px 20px;
+    position: relative;
+}
+.widget.widget--traffic--v1 .traffic--left:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+    bottom: 0;
+    right: 0;
+    left: 20px;
+}
+.widget.widget--traffic--v1 .traffic--right {
+    float: right;
+    padding: 18px 30px 18px 0px;
+    background-color: #333;
+    width: 24%;
+    text-align: right;
+    position: relative;
+}
+.widget.widget--traffic--v1 .traffic--right:before {
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 1px;
+    background-color: #fff;
+    bottom: 0;
+    /* left: 0; */
+    right: 30px;
+}
+.widget.widget--traffic--v1 li.first--child .traffic--left,.widget.widget--traffic--v1 li.last--child .traffic--left {
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 1px 5px rgba(0,0,0,.08);
+    position: static;
+}
+.widget.widget--traffic--v1 li.first--child .traffic--right,.widget.widget--traffic--v1 li.last--child .traffic--right {
+    color: #fff;
+    position: static;
+}
+.widget.widget--traffic--v1 li.first--child .traffic--left {
+    position: relative;
+}
+.widget.widget--traffic--v1 li.first--child .traffic--left:before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    left: 0;
+    z-index: -1;
+    display: block;
+    box-shadow: 0 1px 5px rgba(0,0,0,.08);
+}
+.widget.widget--traffic--v1 li.last--child .traffic--left:before, .widget.widget--traffic--v1 li.last--child .traffic--right:before {
+    content: none;
+}
+/* widget widget--traffic--v1 */

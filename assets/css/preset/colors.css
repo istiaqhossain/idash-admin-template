@@ -27,3 +27,18 @@ xx: Colors
 .text--dark--gray {
   color: #333;
 }
+.text--greenyellow {
+  color: greenyellow;
+}
+.text--yellow {
+  color: yellow;
+}
+.text--green {
+  color: green;
+}
+.text--red {
+  color: red;
+}
+.text--burlywood {
+  color: burlywood;
+}
