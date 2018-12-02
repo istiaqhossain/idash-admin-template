@@ -257,7 +257,6 @@ xx: Widgets
 .widget.widget--traffic--v1 {
     padding-top: 15px;
 }
-.widget.widget--traffic--v1 li {}
 .widget.widget--traffic--v1 .traffic--left { 
     float: left;
     background-color: #fff;
@@ -322,3 +321,82 @@ xx: Widgets
     content: none;
 }
 /* widget widget--traffic--v1 */
+
+/* widget widget--recent--deals */
+.widget.widget--recent--deals {
+    padding: 15px 0px 0px 0px;
+}
+.widget.widget--recent--deals h3 {
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 16px;
+    font-size: 14px;
+    background-color: #333;
+    color: #fff;
+    margin: 0px 20px 0 0;
+    padding: 15px 0px 15px 15px;
+    text-transform: uppercase;
+}
+.widget.widget--recent--deals .times{
+    padding: 25px 20px 25px 15px;
+}
+.widget.widget--recent--deals .times ul{
+    float: right;
+}
+.widget.widget--recent--deals .times ul li{
+    float: left;
+}
+.widget.widget--recent--deals .times ul li a{
+    border: 1px solid #999;
+    padding: 2px 10px;
+    display: block;
+    font-size: 10px;
+}
+.widget.widget--recent--deals .schedule--time{
+    padding: 25px 20px 25px 15px;
+    box-shadow: 0 1px 5px rgba(0,0,0,.08);
+}
+.widget.widget--recent--deals .schedule--time p{
+    margin: 0;
+    padding: 10px 0px;
+}
+.widget.widget--recent--deals .schedule--time p span{
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+}
+.widget.widget--recent--deals .stats {
+    overflow: hidden;
+    padding: 15px 20px 15px 15px;
+}
+.widget.widget--recent--deals .stats span {
+    color: #4CAF50;
+}
+.widget.widget--recent--deals .deals--nav{
+    padding: 15px 20px 15px 15px;
+    overflow: hidden;
+}
+.widget.widget--recent--deals .deals--nav ul li{
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    float: left;
+}
+.widget.widget--recent--deals .deals--nav ul li a{
+    display: block;
+    padding: 8px 0px;
+    background-color: green;
+    color:#fff;
+}
+.widget.widget--recent--deals .deals--nav ul li:first-child a{
+    background-color: #333;
+    color: #fff;
+}
+.widget.widget--recent--deals .deals--nav ul li:last-child a{
+    background-color: #333;
+    color: #fff;
+}
+/* widget widget--recent--deals */
