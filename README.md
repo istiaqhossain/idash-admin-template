@@ -1,1 +1,1 @@
-# idash-admin-template
+# iDash Admin Template
